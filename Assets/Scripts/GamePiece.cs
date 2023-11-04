@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Match3
 {
@@ -56,11 +57,13 @@ namespace Match3
             _type = type;
         }
 
-        private void OnMouseEnter() => _gameGrid.EnterPiece(this);
+        private void OnMouseEnter()
+        {
+            _gameGrid.EnterPiece(this);
+            _gameGrid.ReleasePiece();
+        }
 
         private void OnMouseDown() => _gameGrid.PressPiece(this);
-
-        private void OnMouseUp() => _gameGrid.ReleasePiece();
 
         public bool IsMovable() => _movableComponent != null;
 

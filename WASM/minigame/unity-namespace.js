@@ -18,7 +18,7 @@ const unityNamespace = {
     unityVersion: '2021.2.5f1c302',
     
     unityColorSpace: 'Gamma',
-    convertPluginVersion: '202310201901',
+    convertPluginVersion: '202311021618',
     
     streamingUrlPrefixPath: '',
     // DATA_CDN + dataFileSubPrefix + datafilename

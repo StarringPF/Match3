@@ -307,9 +307,12 @@ namespace Match3
 
         public void ReleasePiece()
         {
-            if (IsAdjacent (_pressedPiece, _enteredPiece))
+            if (_pressedPiece && _enteredPiece)
             {
-                SwapPieces(_pressedPiece, _enteredPiece);
+                if (IsAdjacent (_pressedPiece, _enteredPiece))
+                {
+                    SwapPieces(_pressedPiece, _enteredPiece);
+                }    
             }
         }
 
