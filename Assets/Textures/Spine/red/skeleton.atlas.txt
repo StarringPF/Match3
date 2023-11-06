@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1532,1199
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+碎片6
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+碎片1
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+碎片2
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+碎片3
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+碎片4
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+碎片5
+  rotate: true
+  xy: 1343, 1005
+  size: 192, 187
+  orig: 1890, 1417
+  offset: 838, 657
+  index: -1
+红书
+  rotate: true
+  xy: 2, 2
+  size: 1195, 1339
+  orig: 1890, 1417
+  offset: 348, 39
+  index: -1
